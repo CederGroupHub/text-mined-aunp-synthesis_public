@@ -1,0 +1,41 @@
+syns_map = {
+  'rod' : [
+    '(Au ?|G)?NR\S*',
+    '(Au |[gG]old )?([nN]ano)?[rR]od\S*',
+  ],
+  'sphere' : [
+    '(Au |[gG]old )?([nN]ano)?[sS]pher(e|oid|ical)\S*'
+  ],
+  'cube' : [
+    '(Au |[gG]old )?([nN]ano)?[cC]ub(e|oid|ic)\S*',
+    '(Au |[gG]old )?([nN]ano)?[hH]exahedr(a|al|on)\S*',
+  ],
+  'octahedra': [
+    '(Au |[gG]old )?([nN]ano)?[oO]ctahedr(a|al|on)\S*'
+  ],
+  'hexagon' : [
+    '(Au ?|G)?([nN]ano)?[hH]exagon(al)?\S*'
+  ],
+  'star' : [
+    '(Au |[gG]old )?([nN]ano)?[sS]tar\S*',
+  ],
+  'wire' : [
+    '(Au ?|G)?NWs?',
+    '(Au |[gG]old )?([nN]ano)?[wW]ire\S*',
+  ],
+  'triangle' : [
+    '(Au ?|G)?([nN]ano)?[tT]riangle\S*'
+  ],
+  'plate' : [
+    '(Au ?|G)?([nN]ano)?[pP]late\S*'
+  ],
+  'tube' : [
+    '(Au ?|G)?([nN]ano)?[tT]ube\S*'
+  ],
+  'prismatic' : [
+    '(Au ?|G)?([nN]ano)?[pP]rism\S*'
+  ],
+  'pyramid' : [
+    '(Au ?|G)?([nN]ano)?([bB]i)?[pP]yramid\S*'
+  ]
+}

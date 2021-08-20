@@ -1,0 +1,122 @@
+{
+    "AuCl3":[
+        "AuCl3[^.:;,)\s]*",
+        "\w*[gG]old( ?\(III\))? chloride[^.:;,)\s]*",
+    ],
+    "NaAuCl4":[
+        "NaAuCl4[^.:;,)\s]*",
+        "\w*[sS]odium (tetra)?chloroaurate( ?\(III\))?[^.:;,)\s]*",
+        "\w*[gG]old( ?\(III\))? (chloride sodium|sodium chloride)[^.:;,)\s]*",
+    ],
+    "HAuCl4":[
+        "HAuCl4[^.:;,/)\s]*( ion\w*)?",
+        "\w*([tT]etra)?[cC]hloroauric acid[^.:;,)\s]*",
+        "\w*([hH]ydrogen )?[tT]etrachloroaurate( ?\(III\))?[^.:;,)\s]*"
+    ],
+    "Ag+":[
+    "Ag ?[+](?=\s)",
+    "\w*([sS]ilver|Ag) (cat)?ion[^.:;,)\s]*",
+    "\w*([sS]ilver|Ag)( ?\(I\))[^.:;,)\s]*",
+    ],
+    "AgNO3":[
+        "AgNO3[^.:;,)\s]*",
+        "\w*[sS]ilver [nN]itrate[^.:;,)\s]*",
+    ],
+    "NaBH4":[
+        "NaBH4[^\/.:;,\-–)\s]*",
+        "\w*([sS]odium )?[bB]orohydride[^.:;,)\s]*",
+        "\w*([sS]odium )?[tT]etra(hydridoborate|hydroborate)( ?\(III\))?[^.:;,)\s]*",
+    ],
+    "ascorbic acid":[
+        "\w*AA[^.:;,)\s]*",
+        "\w*[lL]-ascorbic acid[^.:;,)\s]*",
+        "\w*[aA]scorbic acid[^.:;,)\s]*",
+        "\w*C6H8O6[^.:;,)\s]*",
+    ],
+    "HQ":[
+        "\w*[hH]ydroquinone[^.:;,)\s]*",
+        "\w*C6H4(OH)2[^.:;,)\s]*",
+        "\w*C6H6O2[^.:;,)\s]*",
+    ],
+    "H2O2":[
+        "H2O2[^.:;,)\s]*",
+        "\w*[hH]ydrogen peroxide[^.:;,)\s]*",
+    ],
+    "citrate":[
+        "[\w\-]*[cC]itrate[^.:;,)\s]*",
+        "[\w\-]*[cC]itric acid[^.:;,)\s]*",
+    ],
+    "sodium citrate":[
+        "Na3C6H5O7[^.:;,)\s]*",
+        "Na3 [cC]itrate[^.:;,)\s]*",
+        "\w*([tT]ri-?)?[sS]odium [cC]itrate( dehydrate)?[^.:;,)\s]*",
+        "Na3C6H5O7·2H2O[^.:;,)\s]*",
+        "C6H5Na3O7·2H2O[^.:;,)\s]*",
+        "\w*([tT]ri-?)?[sS]odium citrate (tribasic )?dihydrate[^.:;,)\s]*",
+    ],
+    "CTAB":[
+        "\w*CTAB[^.:;,)\s]*",
+        "\w*([cC]etyl|[hH]exadecyl) ?[tT]rimethyl ?[aA]mmonium [bB]romide[^.:;,)\s]*",
+        "\w*[cC]etrimonium [bB]romide[^.:;,)\s]*"
+    ],
+    "CTAC":[
+        "\w*CTAC[^.:;,)\s]*",
+        "\w*([cC]etyl|[hH]exadecyl) ?trimethyl ?ammonium chloride[^.:;,)\s]*",
+    ],
+    "BSA":[
+        "\w*BSA[^.:;,)\s]*",
+        "\w*[bB]ovine [sS]erum [aA]lbumin[^.:;,)\s]*",
+    ],
+    "PVP":[
+        "[^\/.:;,\-–)\s]*PVP[^/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*[pP]olyvinyl ?pyrrolidone[^/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*[pP]oly\(vinyl ?pyrrolidone\)[^/.:;,\-–)\s]*",
+    ],
+    "PDDA":[
+        "[^\/.:;,\-–)\s]*PDDA[^/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*[pP]olydiallyl ?[dD]imethyl ?[aA]mmonium( ?[cC]hloride)?[^/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*[pP]oly\(diallyl ?[dD]imethyl ?[aA]mmonium\)( ?[cC]hloride)?[^/.:;,\-–)\s]*",
+    ],
+    "TOAB":[
+        "\w*TOAB[^.:;,)\s]*",
+        "\w*[tT]etra-?((-N-)|(-n-))?octyl ?ammonium bromide[^.:;,)\s]*",
+    ],
+    "TEOS":[
+        "\w*TEOS[^.:;,)\s]*",
+        "\w*[tT]etraethyl [oO]rthosilicate[^.:;,)\s]*",
+    ],
+    "DMF":[
+        "[^\/.:;,\-–)\s]*(DMF|[dD]imethyl ?[fF]ormamide)[^\/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*([nN\d],[nN\d])[-–](DMF|[dD]imethyl ?[fF]ormamide)[^\/.:;,\-–)\s]*",
+    ],
+    "organic solvent":[
+        "[^\/.:;,\-–)\s]*([oO]rganic|[nN]on ?[-–]? ?polar|[hH]ydro[-–]?phobic|[lL]ipophilic) solvent[^\/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*poly\([^\/.:;,\)\s]* ?[^\/.:;,\)\s]*ol\)[^\/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*poly[^\/.:;,\)\s]* ?[^\/.:;,\)\s]*ol[^\/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*([nN\d],[nN\d])[-–][^\/.:;,\-–)\s]*ol[^\/.:;,\-–)\s]*",
+        "[^\/.:;,\-–)\s]*([eE]thanol|[gG]lycerine|[tT]oluene)[^\/.:;,\-–)\s]*",
+    ],
+    "H2O":[
+        "(?<!\d\s)(?<=\s)H2O(?=[.:;,)\s])",
+        "(?<=\s)[wW]ater[^.:;,)\s]*",
+        "(?<=\s)[aA]queous"
+    ],
+    "HCl":[
+        "\w*HCl[^.:;,)\s]*",
+        "\w*hydrochloric acid[^.:;,)\s]*",
+        "[aA]qua regia",
+    ],
+    "NaOH":[
+        "\w*NaOH[^.:;,)\s]*",
+        "\w*sodium hydroxide[^.:;,)\s]*",
+    ],
+    "HNO3":[
+        "\w*HNO3[^.:;,)\s]*",
+        "\w*[nN]itric acid[^.:;,)\s]*",
+        "[aA]qua regia",
+    ],
+    "H2SO4":[
+        "\w*H2SO4[^.:;,)\s]*",
+        "\w*[sS]ulfuric acid[^.:;,)\s]*",
+    ]
+}
