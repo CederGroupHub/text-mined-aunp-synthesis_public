@@ -1,0 +1,6 @@
+[submodule "MatEntityRecognition"]
+	path = MatEntityRecognition
+	url = https://github.com/CederGroupHub/MatEntityRecognition/
+[submodule "MaterialParser"]
+	path = MaterialParser
+	url = https://github.com/CederGroupHub/MaterialParser/
