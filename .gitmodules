@@ -4,3 +4,6 @@
 [submodule "MaterialParser"]
 	path = MaterialParser
 	url = https://github.com/CederGroupHub/MaterialParser/
+[submodule "MaterialAmountExtractor"]
+	path = MaterialAmountExtractor
+	url = https://github.com/CederGroupHub/MaterialAmountExtractor
